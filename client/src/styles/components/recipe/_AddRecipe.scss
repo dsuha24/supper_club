@@ -1,0 +1,100 @@
+.AddRecipe {
+  background-color: #e8e5e5;
+  padding: 30px 100px;
+  min-height: 100vh;
+  .mise-icon {
+    font-size: 40;
+    color: #fcf1df;
+    cursor: pointer;
+  }
+  .PrivateTabIndicator-colorPrimary-2 {
+    background-color: #6f6f6f;
+    display: none;
+  }
+  .MuiTab-root {
+    text-transform: inherit;
+  }
+  .MuiTab-wrapper {
+    color: #6f6f6f;
+    font-weight: lighter;
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    .MuiTab-wrapper {
+      color: #6f6f6f;
+      font-weight: bold;
+    }
+  }
+  .btn-step {
+    min-width: 30% !important;
+  }
+  .tab-title {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .tab-content {
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 50px;
+  }
+  .form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .StepsTab {
+    .form-submit {
+      display: flex;
+    }
+
+    .save-btn {
+      margin-right: 30px;
+    }
+    .form-group-steps {
+      position: relative;
+    }
+    .icon-add {
+      position: absolute;
+      top: 15px;
+      right: -50px;
+    }
+  }
+  .MissEnTab {
+    .equipment {
+      display: flex;
+    }
+    .icon {
+      font-size: 40px;
+      cursor: pointer;
+    }
+    .err-icon {
+      color: #fcf1df;
+    }
+    .add-icon {
+      color: #07c400;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 30px;
+    .tab-content {
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    padding: 10px;
+    .tab-content {
+      padding: 0px;
+      width: 100%;
+    }
+    .icon {
+      margin-top: 45px;
+    }
+    .icon-add {
+      position: inherit !important;
+      top: inherit !important;
+      right: inherit !important;
+    }
+  }
+}

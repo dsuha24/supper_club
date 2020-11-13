@@ -1,0 +1,66 @@
+.HomeContent {
+  min-height: 100vh;
+  background-color: #e8e5e5;
+  padding: 20px;
+
+  .title {
+    // height: 700px;
+    background-color: rgba(1, 1, 1, 0.7);
+    text-align: center;
+
+    h1 {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 40px;
+    }
+  }
+
+  &__OptionSelectBar {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  &__ListFood {
+    margin-top: 50px;
+  }
+
+  &__Images {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__Rich-text-block {
+    margin-top: 5px;
+    padding: 15px 5px;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+
+    p {
+      color: black;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__Vidnchat {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5px;
+
+    &__Video {
+      width: 70%;
+    }
+
+    &__Tabs {
+      width: 30%;
+    }
+  }
+}

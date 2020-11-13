@@ -1,0 +1,101 @@
+.AuthLayout {
+  background-color: #e8e5e5;
+  height: 100vh;
+
+  h1,
+  p,
+  label,
+  h4,
+  span {
+    color: #707070;
+    font-weight: bold;
+  }
+
+  &__Box {
+    // min-height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+
+    &__inner {
+      width: 100%;
+      margin: 15px;
+      text-align: center;
+      align-self: center;
+
+      .form-group {
+        .input__label,
+        .input__helper {
+          label {
+            color: white;
+            font-weight: bold;
+          }
+        }
+
+        .input {
+          border-radius: 8px;
+        }
+
+        .button {
+          min-width: 60%;
+          border-radius: 8px;
+          border: none;
+          font-weight: bold;
+        }
+      }
+    }
+
+    h1 {
+      display: inline-block;
+      color: #707070;
+      text-align: center;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+.SignUpForm,
+.LoginForm,
+.ForgotPasswordForm {
+  .form-group {
+    max-width: 400px;
+  }
+
+  .SignUpStepOneDone {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px 30px;
+    margin-top: 30px;
+  }
+
+  .login-btn {
+    background-color: #ff1077;
+  }
+
+  a {
+    color: #073aca;
+  }
+}
+
+.SignUpFormConfirm {
+  .form-group {
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .email-confirm {
+    color: $_green;
+  }
+
+  .registered {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px 30px;
+    margin-top: 30px;
+  }
+}

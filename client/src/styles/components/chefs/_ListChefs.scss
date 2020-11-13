@@ -1,0 +1,58 @@
+.ListChefsContent {
+  background-color: #e8e5e5;
+  padding: 50px 20px;
+  min-height: 100vh;
+  .ChefItem {
+    width: 92%;
+    margin: 0 auto;
+    p {
+      margin: 0;
+      color: #707070;
+    }
+    .chef-image {
+      width: 100%;
+      border-radius: 8px;
+      height: 250px;
+    }
+    .information {
+      display: flex;
+      justify-content: space-between;
+      .information-auth {
+        .author-avatar {
+          height: 20px;
+          align-self: center;
+          margin-right: 5px;
+        }
+      }
+      .information-view {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .ListChefs {
+    .itemChef {
+      width: 20%;
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .chef-image {
+      height: 200px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .itemChef {
+      width: 25% !important;
+    }
+    .chef-image {
+      height: 180px !important;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .itemChef {
+      width: 50% !important;
+    }
+  }
+}

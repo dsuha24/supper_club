@@ -1,0 +1,18 @@
+.bg-header {
+  background-color: #ff1077;
+}
+
+a {
+  text-decoration: none;
+}
+
+span,
+label,
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.error {
+  color: $_red !important;
+}

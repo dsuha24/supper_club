@@ -1,0 +1,62 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+
+  .live-icon {
+    flex-grow: 1;
+    margin-left: 20px;
+
+    img {
+      height: 35px;
+    }
+  }
+
+  .logo-header {
+    flex-grow: 1;
+    text-align: center;
+
+    img {
+      height: 56px;
+    }
+  }
+
+  .guest-links {
+    flex-grow: 1;
+    text-align: right;
+    align-self: center;
+    margin-right: 30px;
+
+    a {
+      color: #fff !important;
+      font-weight: bold;
+      margin-left: 40px;
+    }
+  }
+
+  .profile-info {
+    button {
+      margin: 10px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    display: block !important;
+    .live-icon {
+      text-align: center;
+    }
+    .guest-links {
+      a {
+        margin-left: 13px;
+      }
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .guest-links {
+      a {
+        margin-left: 10px;
+      }
+    }
+  }
+}

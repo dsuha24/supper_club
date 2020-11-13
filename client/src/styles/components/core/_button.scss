@@ -1,0 +1,27 @@
+.button {
+  background-color: #ff1077 !important;
+  height: 38px;
+  background: #222;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  color: #00ff11;
+}
+
+.button:active {
+  color: #00ff11;
+}
+
+.btn_active {
+  background: #222 !important;
+  color: #00ff11 !important;
+}

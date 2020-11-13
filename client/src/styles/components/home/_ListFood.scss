@@ -1,0 +1,35 @@
+.ListFood {
+  .FoodItem {
+    margin-bottom: 15px;
+    p {
+      margin: 0;
+      color: #707070;
+    }
+    .food-image {
+      width: 100%;
+      border-radius: 5px;
+      height: 250px;
+    }
+    .information {
+      display: flex;
+      justify-content: space-between;
+      .information-auth {
+        display: flex;
+        .author-avatar {
+          height: 20px;
+          align-self: center;
+          margin-right: 5px;
+        }
+      }
+      .information-view {
+        display: flex;
+        p {
+          font-size: 12px;
+        }
+        .chefs {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

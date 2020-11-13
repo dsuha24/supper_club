@@ -1,0 +1,29 @@
+.form-group {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  .group-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-item {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  .form-error {
+    .input {
+      border: 0.5px solid $_red;
+
+      &__label,
+      &__helper {
+        label {
+          color: $_red !important;
+        }
+      }
+    }
+  }
+}
